@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@layer base {
+  /* 1. Import font dari Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+  /* 2. Terapkan secara global ke tag body atau html */
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+
