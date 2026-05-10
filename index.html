@@ -35,13 +35,13 @@
 
             <main class="mt-24 text-center flex flex-col items-center relative">
                 
-                <h1 class="text-6xl md:text-8xl font-bold leading-tight max-w-4xl tracking-tight">
+                <h1 class="text-6xl md:text-8xl font-bold leading-[105px] max-w-4xl tracking-tight">
                     Bringing Your <br> 
                     <span class="relative">
                         Dream Into 
                         <div class="absolute bottom-4 left-0 w-full"></div>
                     </span>
-                    <span class="text-[#B9FD50]">Reality</span>
+                    <span class="text-[#B9FD50] italic">Reality</span>
                 </h1>
 
                 <p class="mt-8 text-white/80 max-w-xl text-lg leading-relaxed">
@@ -64,7 +64,7 @@
                     <div class="w-20 h-[2px] bg-[#B9FD50]"></div>
                 </div>
 
-                <div class="grid grid-cols-5 items-center bg-[#222222] rounded-2xl py-5 px-10 mb-30 w-full max-w-7xl mx-auto ">
+                <div class="grid grid-cols-5 items-center bg-[#222222] rounded-xl py-5 px-10 mb-30 w-full max-w-7xl mx-auto ">
                     <div class="flex justify-center">
                         <img src="img/Logo Layers.png" alt="Layers" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
                     </div>
@@ -77,7 +77,7 @@
                     <div class="flex justify-center">
                         <img src="img/Logo Hourglass.png" alt="Hourglass" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
                     </div>
-                    <div class="flex justify-center">
+                    <div class="flex justify-center ">
                         <img src="img/Logo Command+R.png" alt="Command+R" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                 <div class="flex flex-col items-start">
                     <div class="flex items-center w-full">
                         <div>
-                            <img class="w-20 h-auto" src="img/roket.png" alt="rocket">
+                            <img class="w-20 h-auto transition duration-300 ease-in-out hover:rotate-40 shadow-lg" src="img/roket.png" alt="rocket">
                         </div>
                         <div class="flex-grow h-[1px] bg-[#B9FD50] ml-4 relative hidden md:block">
                             <div class="absolute right-0 -top-[3px] w-2 h-2 border-t border-r border-[#B9FD50] rotate-45"></div>
@@ -129,7 +129,7 @@
                 <div class="flex flex-col items-start">
                     <div class="flex items-center w-full">
                         <div>
-                            <img class="w-20 h-auto" src="img/draw.png" alt="draw">
+                            <img class="w-20 h-auto transition duration-300 ease-in-out hover:rotate-92 shadow-lg" src="img/draw.png" alt="draw">
                         </div>
                         <div class="flex-grow h-[1px] bg-[#B9FD50] ml-4 relative hidden md:block">
                             <div class="absolute right-0 -top-[3px] w-2 h-2 border-t border-r border-[#B9FD50] rotate-45"></div>
@@ -144,7 +144,7 @@
                 <div class="flex flex-col items-start">
                     <div class="flex items-center w-full">
                         <div>
-                            <img class="w-20 h-auto" src="img/revision.png" alt="revision">
+                            <img class="w-20 h-auto transition duration-300 ease-in-out hover:rotate-100 shadow-lg" src="img/revision.png" alt="revision">
                         </div>
                         </div>
                     <h1 class="mt-8 text-2xl font-semibold">Revisions made simple</h1>
@@ -167,9 +167,14 @@
                         We help our clients grow their bottom-line with clear and professional websites.
                     </p>
                     
-                    <button class="mt-10 border border-black px-8 py-3 rounded-xl flex items-center gap-2 mx-auto hover:bg-black hover:text-white transition duration-300">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24 "><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-                        Load More
+                    <button class="group mt-10 border border-black px-8 py-3 rounded-xl flex items-center gap-2 mx-auto hover:bg-black hover:text-white transition duration-300">
+                        <svg class="w-4 h-4 transition duration-500 ease-in-out group-hover:rotate-[360deg]" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                            Load More
                     </button>
                 </div>
 
@@ -186,7 +191,8 @@
                     <div class="break-inside-avoid">
                         <img src="img/work 4.png" alt="Work" class="-mt-10 w-full shadow-sm hover:scale-[1.05] transition duration-300">
                     </div>
-                    </div>
+                    
+                </div>
 
             </div>
         </section>
