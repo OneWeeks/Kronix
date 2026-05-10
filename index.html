@@ -1,115 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/output.css">
-    <link rel="icon" href="img/logo.png">
-    <title>Kronix</title>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/output.css">
+        <link rel="icon" href="img/logo.png">
+        <title>Kronix</title>
+    </head>
 
-<body class="bg-[#111204] font-outfit text-white overflow-x-hidden">
+    <body class="bg-[#111204] font-outfit text-white overflow-x-hidden">
 
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#B9FD50] opacity-20 blur-[120px] rounded-full -z-10"></div>
-    <div class="max-w-7xl mx-auto px-10 py-10">
-        <nav class="flex items-center justify-between">
-            <div class="w-32">
-                <img src="img/Logo Kronix.png" alt="Kronix">
-            </div>
-
-            <ul class="hidden md:flex gap-8 font-normal cursor-pointer">
-                <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Process</li>
-                <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Benefits</li>
-                <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Services</li>
-                <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Portfolio</li>
-                <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">FAQ</li>
-            </ul>
-
-            <button class="bg-[#B9FD50] px-8 py-3 text-black font-semibold rounded-xl hover:scale-105 hover:shadow-[0_0_20px_rgba(185,253,80,0.5)] transition duration-300">
-                Get Started
-            </button>
-        </nav>
-
-        <main class="mt-24 text-center flex flex-col items-center relative">
-            
-            <h1 class="text-6xl md:text-8xl font-bold leading-tight max-w-4xl tracking-tight">
-                Bringing Your <br> 
-                <span class="relative">
-                    Dream Into 
-                    <div class="absolute bottom-4 left-0 w-full"></div>
-                </span>
-                <span class="text-[#B9FD50]">Reality</span>
-            </h1>
-
-            <p class="mt-8 text-gray-300 max-w-xl text-lg leading-relaxed">
-                We increase revenue and ensure sustainable long-term growth for your business through powerful Webflow websites.
-            </p>
-
-            <button class="mt-10 bg-[#B9FD50] px-8 py-5 text-black font-semibold rounded-xl hover:shadow-[0_0_30px_rgba(185,253,80,0.4)] hover:scale-110 transition duration-300">
-                Book A Meeting
-            </button>
-
-            <div class="absolute right-10 top-0 text-[#B9FD50] opacity-30 blur-[1px]">
-                <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L14.5 9.5L24 12L14.5 14.5L12 24L9.5 14.5L0 12L9.5 9.5L12 0Z"/></svg>
-            </div>
-
-            <div class="flex items-center justify-center gap-6 mt-25 mb-10 text-white">
-                <div class="w-20 h-[2px] bg-[#B9FD50]"></div>
-                <h2 class="text-sm font-bold tracking-[0.2em] uppercase">
-                    Trusted by Amazing Brands
-                </h2>
-                <div class="w-20 h-[2px] bg-[#B9FD50]"></div>
-            </div>
-
-            <div class="grid grid-cols-5 items-center bg-[#222222] rounded-2xl py-5 px-10 mb-30 w-full max-w-7xl mx-auto ">
-                <div class="flex justify-center">
-                    <img src="img/Logo Layers.png" alt="Layers" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#B9FD50] opacity-20 blur-[120px] rounded-full -z-10"></div>
+        <div class="max-w-7xl mx-auto px-10 py-10">
+            <nav class="flex items-center justify-between">
+                <div class="w-32">
+                    <img src="img/Logo Kronix.png" alt="Kronix">
                 </div>
-                <div class="flex justify-center">
-                    <img src="img/Logo Quotient.png" alt="Quotient" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
-                </div>
-                <div class="flex justify-center">
-                    <img src="img/Logo Circooles.png" alt="Circooles" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
-                </div>
-                <div class="flex justify-center">
-                    <img src="img/Logo Hourglass.png" alt="Hourglass" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
-                </div>
-                <div class="flex justify-center">
-                    <img src="img/Logo Command+R.png" alt="Command+R" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
-                </div>
-            </div>
 
-        </main>
-        
-        <div class="grid grid-cols-2">
-            <div>
-                <h2 class="text-[#B9FD50] text-lg font-light">
-                    HOW WE WORK
-                </h2>
-                <h1 class="text-[54px] font-semibold mt-4 leading-tight">
-                    Get a dedicated design <br>
-                     team at fraction of the <br>
-                     cost.
-                </h1>
-            </div>
-            <div class="ml-15">
-                <p class="text-2xl font-light text-gray-200 pt-15">
-                    Grow your brand with high-quality design for a <br>
-                     flat monthly fee. Work with senior designers. <br>
-                      Subscribe and make as many requests as you <br>
-                       need - no limits.
-                </p>
-                <button class="bg-[#B9FD50] text-black font-semibold text-sm mt-8 pt-4 pb-4 pr-8 pl-8 rounded-xl hover:scale-105 hover:shadow-[0_0_20px_rgba(185,253,80,0.5)] transition duration-300">
-                    See Pricing
+                <ul class="hidden md:flex gap-8 font-normal cursor-pointer">
+                    <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Process</li>
+                    <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Benefits</li>
+                    <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Services</li>
+                    <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">Portfolio</li>
+                    <li class="hover:text-[#B9FD50] hover:drop-shadow-[0_0_10px_#B9FD50] transition duration-300">FAQ</li>
+                </ul>
+
+                <button class="bg-[#B9FD50] px-8 py-3 text-black font-semibold rounded-xl hover:scale-105 hover:shadow-[0_0_20px_rgba(185,253,80,0.5)] transition duration-300">
+                    Get Started
                 </button>
+            </nav>
+
+            <main class="mt-24 text-center flex flex-col items-center relative">
+                
+                <h1 class="text-6xl md:text-8xl font-bold leading-tight max-w-4xl tracking-tight">
+                    Bringing Your <br> 
+                    <span class="relative">
+                        Dream Into 
+                        <div class="absolute bottom-4 left-0 w-full"></div>
+                    </span>
+                    <span class="text-[#B9FD50]">Reality</span>
+                </h1>
+
+                <p class="mt-8 text-white/80 max-w-xl text-lg leading-relaxed">
+                    We increase revenue and ensure sustainable long-term growth for your business through powerful Webflow websites.
+                </p>
+
+                <button class="mt-10 bg-[#B9FD50] px-8 py-5 text-black font-semibold rounded-xl hover:shadow-[0_0_30px_rgba(185,253,80,0.4)] hover:scale-110 transition duration-300">
+                    Book A Meeting
+                </button>
+
+                <div class="absolute right-10 top-0 text-[#B9FD50] opacity-30 blur-[1px]">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L14.5 9.5L24 12L14.5 14.5L12 24L9.5 14.5L0 12L9.5 9.5L12 0Z"/></svg>
+                </div>
+
+                <div class="flex items-center justify-center gap-6 mt-25 mb-10 text-white">
+                    <div class="w-20 h-[2px] bg-[#B9FD50]"></div>
+                    <h2 class="text-sm font-bold tracking-[0.2em] uppercase">
+                        Trusted by Amazing Brands
+                    </h2>
+                    <div class="w-20 h-[2px] bg-[#B9FD50]"></div>
+                </div>
+
+                <div class="grid grid-cols-5 items-center bg-[#222222] rounded-2xl py-5 px-10 mb-30 w-full max-w-7xl mx-auto ">
+                    <div class="flex justify-center">
+                        <img src="img/Logo Layers.png" alt="Layers" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="img/Logo Quotient.png" alt="Quotient" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="img/Logo Circooles.png" alt="Circooles" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="img/Logo Hourglass.png" alt="Hourglass" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="img/Logo Command+R.png" alt="Command+R" class="h-8 md:h-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </div>
+
+            </main>
+            
+            <div class="grid grid-cols-2 mb-45">
+                <div>
+                    <h2 class="text-[#B9FD50] text-lg font-light">
+                        HOW WE WORK
+                    </h2>
+                    <h1 class="text-[54px] font-semibold mt-4 leading-tight">
+                        Get a dedicated design <br>
+                        team at fraction of the <br>
+                        cost.
+                    </h1>
+                </div>
+                <div class="ml-15">
+                    <p class="text-2xl font-light text-white/80 pt-15">
+                        Grow your brand with high-quality design for a <br>
+                        flat monthly fee. Work with senior designers. <br>
+                        Subscribe and make as many requests as you <br>
+                        need - no limits.
+                    </p>
+                    <button class="bg-[#B9FD50] text-black font-semibold text-sm mt-8 pt-4 pb-4 pr-8 pl-8 rounded-xl hover:scale-105 hover:shadow-[0_0_20px_rgba(185,253,80,0.5)] transition duration-300">
+                        See Pricing
+                    </button>
+                </div>
             </div>
+
+            <div class="grid grid-cols-3 gap-10 text-white relative">
+        
+                <div class="flex flex-col items-start">
+                    <div class="flex items-center w-full">
+                        <div>
+                            <img class="w-20 h-auto" src="img/roket.png" alt="rocket">
+                        </div>
+                        <div class="flex-grow h-[1px] bg-[#B9FD50] ml-4 relative hidden md:block">
+                            <div class="absolute right-0 -top-[3px] w-2 h-2 border-t border-r border-[#B9FD50] rotate-45"></div>
+                        </div>
+                    </div>
+                        <h1 class="mt-8 text-2xl font-semibold">Subscribe & Get Started</h1>
+                    <div class="pr-30">
+                        <p class="font-light text-white/60 mt-5">Submit as many design tasks as you need without worrying about individual project fees.</p> 
+                    </div>
+                    
+                </div>
+
+                <div class="flex flex-col items-start">
+                    <div class="flex items-center w-full">
+                        <div>
+                            <img class="w-20 h-auto" src="img/draw.png" alt="draw">
+                        </div>
+                        <div class="flex-grow h-[1px] bg-[#B9FD50] ml-4 relative hidden md:block">
+                            <div class="absolute right-0 -top-[3px] w-2 h-2 border-t border-r border-[#B9FD50] rotate-45"></div>
+                        </div>
+                    </div>
+                    <h1 class="mt-8 text-2xl font-semibold">Polished designs - on time</h1>
+                    <div class="pr-30">
+                        <p class="font-light text-white/60 mt-5">Our designers get to work to deliver your request. Receive your design within a few days.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-start">
+                    <div class="flex items-center w-full">
+                        <div>
+                            <img class="w-20 h-auto" src="img/revision.png" alt="revision">
+                        </div>
+                        </div>
+                    <h1 class="mt-8 text-2xl font-semibold">Revisions made simple</h1>
+                    <div class="pr-30">
+                        <p class="font-light text-white/60 mt-5">Custom designs, prompt replies and as many revisions as you need.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
         </div>
 
-    </div>
-    
+        <section class="bg-white text-black py-24 px-10 mt-30">
+            <div class="max-w-7xl mx-auto">
+                
+                <div class="text-center mb-20">
+                    <h2 class="text-5xl font-bold tracking-tight mb-4 tracking-tighter">Our Beautiful Works</h2>
+                    <p class="text-gray-600 max-w-md mx-auto leading-relaxed">
+                        We help our clients grow their bottom-line with clear and professional websites.
+                    </p>
+                    
+                    <button class="mt-10 border border-black px-8 py-3 rounded-xl flex items-center gap-2 mx-auto hover:bg-black hover:text-white transition duration-300">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24 "><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                        Load More
+                    </button>
+                </div>
 
-</body>
-</html>
+                <div class="columns-1 md:columns-2 lg:columns-4 gap-6 space-y-6">
+                    <div class="break-inside-avoid">
+                        <img src="img/work 1.png" alt="Work" class="mt-5 w-full shadow-sm hover:scale-[1.05] transition duration-300">
+                    </div>
+                    <div class="break-inside-avoid">
+                        <img src="img/work 2.png" alt="Work" class="-mt-10 w-full shadow-sm hover:scale-[1.05] transition duration-300">
+                    </div>
+                    <div class="break-inside-avoid">
+                        <img src="img/work 3.png" alt="Work" class="mt-5 w-full shadow-sm hover:scale-[1.05] transition duration-300">
+                    </div>
+                    <div class="break-inside-avoid">
+                        <img src="img/work 4.png" alt="Work" class="-mt-10 w-full shadow-sm hover:scale-[1.05] transition duration-300">
+                    </div>
+                    </div>
+
+            </div>
+        </section>
+
+
+    </body>
+    </html>
